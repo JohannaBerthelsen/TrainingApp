@@ -1,6 +1,9 @@
+import StartPage from "./pages/StartPage";
 function App() {
   return (
-   <p>Welcome to Johannas training app :D </p>
+    <div>
+      <StartPage/>
+    </div>
   );
 }
 
