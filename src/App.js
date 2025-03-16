@@ -1,9 +1,8 @@
 import StartPage from "./pages/StartPage";
+
 function App() {
   return (
-    <div>
       <StartPage/>
-    </div>
   );
 }
 
