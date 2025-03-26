@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 function StartPage(){
     return(
-        <StyledText>
+        <Text>
             <h1>Welcome to Johanna's Training App</h1>
-        </StyledText>
+        </Text>
     );
 }
 
 export default StartPage;
 
 
-const StyledText = styled.div`
+const Text = styled.div`
     text-align: center;
 `;
