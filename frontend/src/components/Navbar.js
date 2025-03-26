@@ -6,10 +6,11 @@ const Nav = styled.nav`
     align-items: center;
     justify-content: space-between;
     padding: 0px 30px;
-    background:rgb(133, 166, 167);
+    background:#8FBC8F;
 `;
 
-const Logo = styled.h1`    
+const Logo = styled.h1` 
+color: white;
 `;
 
 const NavList = styled.ul`
