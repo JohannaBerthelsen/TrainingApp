@@ -24,7 +24,7 @@ function Navbar(){
         <Nav>
             <Logo>Logo</Logo>
             <NavList>
-                <li><NavLink to="/">XX</NavLink></li>
+                <li><StyledNavLink to="/">XX</StyledNavLink></li>
             </NavList>
         </Nav>
     );
