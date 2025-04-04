@@ -1,30 +1,44 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 const Nav = styled.nav`
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 30px;
+    padding: 15px;
     background:#8FBC8F;
 `;
 
-const Logo = styled.h1` 
-color: white;
+const Logo = styled.img` 
+    height: 50px;
+    width: auto;
 `;
 
 const NavList = styled.ul`
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    gap: 20px;
 `;
 
+const NavItem = styled.li`
+    list-style: none;
+`
+
+
 const StyledNavLink = styled(NavLink)`
+text-decoration: none;
+color: black;
+font-size: 18px;
 `;
 
 function Navbar(){
     return(
         <Nav>
-            <Logo>Logo</Logo>
+            <Logo src={logo} /> 
             <NavList>
-                <li><StyledNavLink to="/">XX</StyledNavLink></li>
+                <NavItem><StyledNavLink to="/">Login</StyledNavLink></NavItem>
+                <NavItem><StyledNavLink to="/">Register</StyledNavLink></NavItem>
             </NavList>
         </Nav>
     );
