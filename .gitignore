@@ -26,3 +26,6 @@ yarn-error.log*
 *.pack
 
 *.eslintcache
+node_modules/.cache/
+
+index.pack.old
