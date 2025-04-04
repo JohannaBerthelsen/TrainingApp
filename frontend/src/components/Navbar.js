@@ -2,6 +2,11 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 
+const LogoLink = styled(NavLink)`
+    display: flex;
+    align-items: center;
+`;
+
 const Nav = styled.nav`
     display: flex;
     align-items: center;
@@ -35,10 +40,12 @@ font-size: 18px;
 function Navbar(){
     return(
         <Nav>
-            <Logo src={logo} /> 
+            <LogoLink to="/">
+                <Logo src={logo} /> 
+            </LogoLink>
             <NavList>
-                <NavItem><StyledNavLink to="/">Login</StyledNavLink></NavItem>
-                <NavItem><StyledNavLink to="/">Register</StyledNavLink></NavItem>
+                <NavItem><StyledNavLink to="/login">Login</StyledNavLink></NavItem>
+                <NavItem><StyledNavLink to="/register">Register</StyledNavLink></NavItem>
             </NavList>
         </Nav>
     );
