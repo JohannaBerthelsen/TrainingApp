@@ -24,8 +24,3 @@ yarn-error.log*
 
 #pack files
 *.pack
-*.idx
-
-.eslintcache
-
-config.json
