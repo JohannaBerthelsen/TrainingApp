@@ -37,7 +37,7 @@ color: black;
 font-size: 18px;
 `;
 
-function Navbar(){
+export default function Navbar(){
     return(
         <Nav>
             <LogoLink to="/">
@@ -50,4 +50,3 @@ function Navbar(){
         </Nav>
     );
 }
-export default Navbar;

@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 import {useEffect, useState} from "react";
 import axios from "axios";
 
-function StartPage(){
+export default function StartPage(){
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
@@ -32,8 +32,6 @@ function StartPage(){
         </Container>
     );
 }
-
-export default StartPage;
 
 
 const Text = styled.div`

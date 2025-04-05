@@ -5,7 +5,7 @@ import StartPage from "./pages/StartPage";
 import RegistrationPage from "./pages/RegistrationPage";
 import LoginPage from "./pages/LoginPage";
 
-function App() {
+export default function App() {
   return (
     <Router>
     <GlobalStyle/>
@@ -19,5 +19,3 @@ function App() {
   
   );
 }
-
-export default App;
