@@ -10,9 +10,9 @@ export default function EmailVerification(){
     return (
         <div>
             <input
+                value ={email}
                 onChange={handleEmailChange}
                 placeholder="Enter your email"
-
             />
         </div>
     )
