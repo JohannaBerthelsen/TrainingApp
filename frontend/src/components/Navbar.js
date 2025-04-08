@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/runicon.png";
 
 const LogoLink = styled(NavLink)`
     display: flex;
